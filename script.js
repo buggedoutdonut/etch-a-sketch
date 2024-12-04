@@ -60,7 +60,6 @@ function createBoxes(){
         } else {
             for(let i = 0;i<getUserPrompt;i++){
                 const createMiniContainer = document.createElement("div");
-                createMiniContainer.setAttribute("style","display:flex;flex:0 1 auto;")
                 for(let j = 0;j<getUserPrompt;j++){
                     const createDiv = document.createElement("div");
                     createDiv.setAttribute("style","max-width:40px;width:2px;border: solid lightgrey 0.2px; background:white;padding:"+ padding +"px;margin:0;");
